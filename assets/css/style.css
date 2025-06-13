@@ -14679,3 +14679,24 @@ span.select2-selection.select2-selection--single:focus {
   }
   
   
+  @media (min-width: 1024px) {
+    .header-logo img {
+      width: 140px !important;  /* adjust this to whatever looks best on large screens */
+      height: auto;             /* maintains aspect ratio */
+      display: block;
+      margin: 0;               /* align to left or center if you want */
+    }
+    
+    .header-logo small {
+      display: block;
+      text-align: left;       /* or center, depending on your design */
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    
+    .slogan {
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+  }
+  
